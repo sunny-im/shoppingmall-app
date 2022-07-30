@@ -32,9 +32,9 @@ const ProductDetail = () => {
                            사이즈 선택
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
-                            {/* {product.size.map((item)=>(
-                                <Dropdown.Item>{item.size}</Dropdown.Item>
-                            ))} */}
+                            {product.size.map((item)=>(
+                                <Dropdown.Item>{item}</Dropdown.Item>
+                            ))}
                         </Dropdown.Menu>
                         </Dropdown>
                     <Button variant="dark">추가</Button>
