@@ -7,7 +7,7 @@ import ProductDetail from './page/ProductDetail';
 import Login from './page/Login';
 import Navbar from './component/Navbar';
 import PrivateRoute from './route/PrivateRoute';
-
+ 
 
 // 6.로그아웃 버튼은 누르면 로그아웃이 된다.
 // 7.상품상세페이지에서 로그아웃을 누르면 상품상세페이지를 볼 수 없으므로 바로 로그인 페이지로 이동된다.
