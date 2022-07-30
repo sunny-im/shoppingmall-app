@@ -7,7 +7,7 @@ const ProductDetail = () => {
     const [product, setProduct] =useState('');
     let{id} = useParams();
     const getProductDetail = async ()=>{
-        let url=`https://my-json-server.typicode.com/sunny-im/shoppingmall-app/${id}`;
+        let url=`https://my-json-server.typicode.com/sunny-im/shoppingmall-app/products/${id}`;
         let response = await fetch(url);
         let data = await response.json();
         console.log(data);
@@ -29,7 +29,7 @@ const ProductDetail = () => {
                     <div>{product.choice ? "Conscious Choice":""}</div>
                     <Dropdown>
                         <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic">
-                           사이즈 선택
+                        사이즈 선택
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
                             {product.size.map((item)=>(
