@@ -33,8 +33,8 @@ const ProductDetail = () => {
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
                             {product?.size.length > 0 &&
-                            product.size.map((item)=>(
-                                <Dropdown.Item>{item}</Dropdown.Item>
+                            product.size.map((item) => (
+                                <Dropdown.Item href="#/action-1">{item}</Dropdown.Item>
                             ))}
                         </Dropdown.Menu>
                         </Dropdown>
