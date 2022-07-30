@@ -1,4 +1,4 @@
-# https://regal-alfajores-277289.netlify.app/
+# https://sunny-shop.netlify.app/
 
 # json-server
 설치 : npm i json-server
